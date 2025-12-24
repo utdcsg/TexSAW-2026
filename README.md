@@ -15,6 +15,7 @@ texsaw{flag}
 ## Format
 For each challenge follow the following directory structure:
 
+```
 challenge/
 ├── challenge.yml       
 ├── docker-compose.yml   (optional) -- optional if challenge isn't hosted / dynamic
@@ -27,10 +28,10 @@ challenge/
 │   └── server.py
 └── writeup/            -- detailed, step-by-step writeup
     └── WRITEUP.md
-
+```
 
 The challenge.yml should be structured like the following:
-
+```
 name: <challenge name>
 author: <challenge author>
 category: <category>
@@ -52,4 +53,4 @@ flags:
 files:
   - chal.png
 state: hidden
-
+```
