@@ -1,0 +1,19 @@
+services:
+  inner:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8021:5000"
+    read_only: true
+    restart: always
+    #privileged: true -- too easy
+    tmpfs:
+      - /tmp:noexec,nosuid,nodev
+    #socket belongs to the outer container's docker daemon -- inteded vuln
+    
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+
+
+

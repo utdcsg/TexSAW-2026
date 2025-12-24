@@ -12,18 +12,44 @@ texsaw{flag}
 * Include Make files
 * Include solution scripts if applicable
 
-For each challenge include a README with the following
+## Format
+For each challenge follow the following directory structure:
 
-## Challenge Name
+challenge/
+├── challenge.yml       
+├── docker-compose.yml   (optional) -- optional if challenge isn't hosted / dynamic
+├── Dockerfile          (optional) -- ^^
+├── dist/               (optional) -- any files directly uploaded / distributed to the ctf participant
+│   └── distributed.exe
+├── src/                (optional) -- anything running on the server
+│   ├── requirements.txt
+│   ├── serve.sh
+│   └── server.py
+└── writeup/            -- detailed, step-by-step writeup
+    └── WRITEUP.md
 
-## Challenge Description
-Give some flavor text.
 
-## Solution
-Explain how to solve the challenge.
+The challenge.yml should be structured like the following:
 
-## Author name 
-To credit the author.
+name: <challenge name>
+author: <challenge author>
+category: <category>
+description: |
+    Challenge description.
 
-## Build instructions
-In case the challenge needs to be rebuilt.
+  Flag format: texsaw{flag}
+  ex: texsaw{orthogonal}
+
+attribution: Written by <author>
+value: <any value> (100 easy, 500 crazy hard)
+type: standard
+flags:
+  - {
+      type: static,
+      content: "texsaw{flag_here}",
+      data: case_insensitive,
+  }
+files:
+  - chal.png
+state: hidden
+
