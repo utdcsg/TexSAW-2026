@@ -1,6 +1,6 @@
 FROM python:3.11-slim
 WORKDIR /app
-RUN apt-get update && apt-get install -y docker.io iputils-ping && rm -rf /var/lib/apt/lists/*
+RUN apt-get update && apt-get install -y sudo docker.io iputils-ping && rm -rf /var/lib/apt/lists/*
 
 #RUN groupadd -f ctf && useradd -m -g ctf ctfer 
 
