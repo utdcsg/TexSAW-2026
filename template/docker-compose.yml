@@ -1,0 +1,14 @@
+services:
+  outer:
+    image: docker:dind
+    privileged: true
+    ports:
+      - "8021:8021"
+    volumes:
+      - ./src/inner:/workspace:ro
+      - ./src/flag.txt:/flag/flag.txt:ro
+      - ./src/startup.sh:/startup.sh:ro
+    working_dir: /workspace
+    command: /startup.sh
+
+    

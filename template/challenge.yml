@@ -1,0 +1,15 @@
+name: Template
+author: WatTheWat
+category: Misc
+description: |
+    Here's the description to my challenge!  
+
+  Flag format: texsaw{flag}
+  ex: texsaw{flag}
+
+attribution: Written by WatTheWat
+value: 100 
+type: standard
+flags:
+  - texsaw{here_is_real_flag}
+state: visible
