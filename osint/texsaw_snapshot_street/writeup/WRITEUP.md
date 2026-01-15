@@ -1,0 +1,5 @@
+An image is given to the user where the user is supposed to reverse image search on any search engine of their choice. When reversed image searched and taking clues from the challenge description itself ("Wandering through this country, or is it a continent?"), you will find that you land on Mindil beach in Australia. 
+
+After this, taking clues from the challenge description ("a café where locals gather"), there is a cafe located named Eva's Cafe. Next, you find a fast food spot ("ᗰajor fast-food spot";notice the M which is mcdonald's logo), and lastly a park lodge ("modest lodge tucked nearby") on Coronation Dr. This, forms a triangle where the street name is located within.
+
+Lastly, find the street name given the hint ("a beautiful SS of the scene") where you will find the street "Salonika St" and enter the flag as "Salonika_St".
