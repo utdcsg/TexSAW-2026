@@ -25,5 +25,5 @@ flags:
       data: case_insensitive,
     }
 files:
-  - scene.png
-state: hidden
+  - dist/photo_1.png
+state: visible
