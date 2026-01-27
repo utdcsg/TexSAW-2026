@@ -1,0 +1,4 @@
+Instructions in case of the compiled binary not working
+To Compile:
+- Make sure ret2sender.c and Makefile are in the same directory
+- Run "make"
