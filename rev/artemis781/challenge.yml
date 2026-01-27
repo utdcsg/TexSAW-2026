@@ -1,0 +1,15 @@
+name: One Way Or Another
+author: artemis781
+category: Rev
+description: |
+    One way or another, you're gonna find it!
+
+  Flag format: texsaw{flag}
+  ex: texsaw{flag}
+
+attribution: Written by artemis781
+value: 150
+type: standard
+flags:
+  - "texsaw{i'm_gonna_get_ya!}"
+state: visible
