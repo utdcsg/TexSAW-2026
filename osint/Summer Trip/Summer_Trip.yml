@@ -2,8 +2,8 @@ name: Summer Trip
 author: Ben
 category: osint
 description: |
-    I took a photo of a poster on a trip and, I can not remember where I took it. Please help me find the coordinates.
-    The only things I remember was there was a yellow money exchange machine and popular roast beef restraunt.
+    Ohno, I took a photo of a poster on a trip and, I can not remember where I took it. Please help me find the coordinates.
+    The only things I remember was there was a yellow money exchange machine and a popular roast beef restraunt.
     Flag format: texsaw{coordinates here}
     ex: texsaw{32_59_10N-96_45_02W}
 
