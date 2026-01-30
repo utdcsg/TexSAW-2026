@@ -1,13 +1,23 @@
 # Web of Approaches Writeup
 
 The webpage on the surface contains nothing but a quiz. The quiz in its current state is impossible due to question 3:
+
 "Which HTML tag is used to define content that is only displayed if the CSS fails to load or is disabled?"
+
 No such tag exists, so trying to submit any answers will give the feedback:
+
 "Incorrect Answers. Please ensure all existing questions have a correct answer."
+
 Which is a hint that you need to remove the question from the page before submitting it to get the part of the encoded flag.
+
 Opening the page with inspect element and deleting the third question then submitting the correct answers for the rest of them (or just deleting all the questions) will give you one part of the encoded flag, which appears to be in base64. You will also notice that the content of the html is complete gibberish because the page has a custom font that acts as effectively a substitution cipher. This cipher will have to be applied to all parts of the base64 flags to be able to decipher them into the actual flag.
+
 In the CSS you will also find that the background, despite being entirely white, is a custom repeating image. Looking at the image itself you can see that it's white but the opacity of each pixel is different. Taking the hex value of each pixel and converting it to ascii (left to right, top to bottom) gives another base64 string.
+
 Looking at the script.js file, you can see that on the document loading the javascript modifies an element with an id that through the substitution cipher translates to "flag-segment" (this is to make it so you can't just look at the initial html page to find the segment), and later on deletes that element when a certain trigger defined by the other js file occurs. This trigger is the script detecting the browser console being open. To get the segment, you can reload the page without opening the browser console and simply copy the area of the web page where the element initally loads, as the text is just set to font-size 0 instead of being properly hidden.
+
 In addition, upon the document loading script.js sends a POST request to the server which returns {"segment": "too fast"}. Intercepting this request in Burp Suite or similar tools and delaying before sending it will get you the flag segment. Though if you delay for too long (>10 seconds), you will instead get {"segment": "too slow"}.
+
 There's nothing else on that page, but going to robots.txt will show one other page, which is labeled one of the first ten letters of the alphabet (a-j). Which letter will change every time the page is reloaded, as it based on the second (looping every 10 seconds). Navigating to one of these paths will show what looks like a Not Found page, though it is a custom page and not what you would get if you went to a random path. One of these pages looks the same but will return a 200 status code instead of a 404 and have the flag hidden in the html. Which page changes every second and is the same as which page is displayed on robots.txt at that time.
+
 Once all parts of the flag have been collected and put through the substitution cipher, they will each give a message that isn't the flag but shows which order they go in depending on their first word (one - 1, to - 2, three - 3, for - 4, finally - 5). Each string is split up into a bunch of smaller string with a lot of padding, with the bits of the flag being hidden in the padding that isn't used when the string is converted to ascii. Extracting these bits and converting them to ascii will give the inside of the flag, and putting it in the proper format (texsaw{...}) will give the flag.
