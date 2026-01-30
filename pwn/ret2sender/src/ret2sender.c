@@ -48,7 +48,7 @@ void deliver() {
 	}
 }
 
-int main(int argc, char* argv[]) {
+int main(int argc, char** argv) {
 	setbuf(stdout, NULL);
 	setbuf(stdin, NULL);
 	setbuf(stderr, NULL);
