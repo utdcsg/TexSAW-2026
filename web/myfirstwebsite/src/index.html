@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Cool Website</title>
+        <script defer>
+            cookieStore.get("token").then(cookie => {
+                if (cookie.value)
+                    document.getElementById("login").innerHTML = "You are logged in!";
+            });
+        </script>
+    </head>
+    <body>
+        <h1>Welcome to My Cool Website</h1>
+        <p>This is my first website, so please don't mess with anything 🥺🙏</p>
+        <p>Todo: Add styling</p>
+        <p id="login"><a href="/login">Login</a></p>
+    </body>
+</html>
