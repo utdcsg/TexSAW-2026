@@ -2,6 +2,10 @@
 #include <stdio.h>
 #include <string.h>
 
+void tool() {
+	__asm__ ("pop %rdi\n\tret");
+}
+
 void avenue() {
 // address avenue
 	puts("Package delivered to 0 Address Avenue.\n");
