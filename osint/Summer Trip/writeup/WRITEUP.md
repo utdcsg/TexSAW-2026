@@ -7,4 +7,6 @@ Step 3: Look up popular roast beef restraunts in japan  or, something like top r
 
 Step 4: If you do not see that hint, have fun cross checking all the smart machines on google maps to see if their is a roast beef place nearby to a smart exchange machine. If you do see the hint, cross check ohno roast beef restraunts with smart exchanges which are majority in Tokyo.
 
-Step 5: Once you find 
+Step 5: Once you find either the roast beef restraunt at this location  Roast Beef Ohno Harajuku Branch, Japan, 〒150-0001 Tokyo, Shibuya, Jingumae, 4 Chome−31−10 YMスクウェア原宿 地下1階 then look to the left and find the smart exchange at this location https://en.map.smartexchange.jp/detail/p0604/. In google earth or the image on the website show the image.
+
+Step 6: grab the cordinates off of google earth or maps and submit.
