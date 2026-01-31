@@ -1,6 +1,6 @@
 # Texsaw 2026
 
-## Deadline January 30
+## Deadline - Valentines Day \<3
 
 ## Flag format 
 texsaw{flag}
