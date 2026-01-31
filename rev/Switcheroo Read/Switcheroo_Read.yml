@@ -1,0 +1,22 @@
+name: Switcheroo Read
+author: Ben
+category: Rev
+description: |
+    Whoopsie, some wild functions started switching my string.
+    Please determine a string to fit their confusion.
+
+    Flag format: texsaw{string}
+    ex: texsaw{confused_String}
+
+attribution: Written by Ben
+value: 100 (100 easy, 500 crazy hard)
+type: standard
+flags:
+  - {
+      type: static,
+      content: "texsaw{pAt1ence!!_W0rKn0w?}",
+      data: case_insensitive,
+  }
+files:
+  - chal.png
+state: hidden
