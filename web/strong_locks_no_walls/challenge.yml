@@ -1,0 +1,21 @@
+name: "Strong Locks, No Walls"
+author: "Laura Tatar"
+category: Web
+description: |
+  The login system uses strong cryptography.
+  Strong hashes. Secure login. What could go wrong?
+
+  Flag format: texsaw{flag}
+  ex: texsaw{orthogonal}
+
+attribution: Written by Laura Tatar
+value: 100
+type: standard
+flags:
+  - {
+      type: static,
+      content: "texsaw{W@lk3d_@r0und_th3_L0ck}",
+      data: case_insensitive,
+  }
+state: hidden
+
