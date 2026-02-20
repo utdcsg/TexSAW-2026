@@ -1,0 +1,19 @@
+name: vigenere
+author: genemachine
+category: pwn
+description: |
+    Challenge description.
+
+attribution: Written by genemachine
+value: 200
+type: standard
+flags:
+  - {
+      type: static,
+      content: "texsaw{wRit3a61e_X0R_exECutA61e}",
+      data: case_sensitive,
+  }
+files:
+  - vigenere.c
+  - vigenere_executable
+state: hidden
