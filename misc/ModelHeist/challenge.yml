@@ -1,0 +1,21 @@
+name: Model Heist
+author: brig
+category: misc
+description: |
+    Neural networks are like onions - or was that ogres?
+
+    Flag format: texsaw{flag}
+
+attribution: Written by brig
+value: 200
+type: standard
+flags:
+  - {
+      type: static,
+      content: "texsaw{w3ight5_t3ll_t4l3s}",
+      data: case_insensitive,
+  }
+files:
+  - model.h5
+state: hidden
+
