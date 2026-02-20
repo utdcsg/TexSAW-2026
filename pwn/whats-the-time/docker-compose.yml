@@ -1,0 +1,7 @@
+services:
+  whatsthetime:
+    build: .
+    ports:
+      - 3000:5000
+    privileged: true
+    restart: unless-stopped
