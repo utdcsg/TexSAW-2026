@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'h3Kk4Wu';
+    src: url('./h3Kk4Wu.woff2') format('woff2'),
+         url('./h3Kk4Wu.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+* {
+    font-family: 'h3Kk4Wu', Arial, sans-serif;
+}
+body {
+    background-image: url('./D4kG_XsG7s9t.png');
+    background-repeat: repeat;
+    padding: 10px;
+    margin: 10px;
+}
+
+.gV9tkK9s3-7kK9 {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bKiis9 {
+    font-size: 0;
+}
+
+.E2sXtKV9 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.DKttsi {
+    padding-top: 10px;
+    word-wrap: break-word;
+}
