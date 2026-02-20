@@ -1,0 +1,15 @@
+# Dependencies
+node_modules
+# Testing
+coverage
+*.test.js
+# IDE/OS files
+.git
+.gitignore
+.vscode
+.DS_Store
+# Build artifacts
+dist
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
