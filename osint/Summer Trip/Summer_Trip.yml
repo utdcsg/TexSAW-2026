@@ -1,6 +1,6 @@
-name: Summer Trip
-author: Ben
-category: osint
+name: Campus Tree Survey
+author: Monan Paul
+category: OSINT
 description: |
     Ohno, I took a photo of a poster on a trip and, I can not remember where I took it. Please help me find the coordinates.
     The only things I remember was there was a yellow money exchange machine and a popular roast beef restraunt.
@@ -9,13 +9,13 @@ description: |
     Used google Earth for cordinates by placing place mark. Plinth: https://calendar.utdallas.edu/su_mall_plinth
     ex: texsaw{32_59_14N-96_45_53W}
 
-attribution: Written by Ben
-value: 200 (100 easy, 500 crazy hard)
+attribution: Written by Monan
+value: 100
 type: standard
 flags:
   - {
       type: static,
-      content: "texsaw{35_40_11N-139_42_22E}",
+      content: "texsaw{205596_Dining_Hall_West}",
       data: case_insensitive,
   }
 files:

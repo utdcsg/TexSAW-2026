@@ -1,0 +1,12 @@
+name: "Site Survey"
+author: Monan Paul
+category: OSINT
+description: "We recovered this photo from a facility management survey. The database crashed, but the Tree ID is still hidden inside the file data. Can you find it?"
+value: 100
+type: standard
+flags:
+  - texsaw{205596_Dining_Hall_West}
+files:
+  - unnamed.jpg
+state: visible
+version: "0.1"
