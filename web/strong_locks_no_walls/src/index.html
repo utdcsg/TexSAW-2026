@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login</title>
+  <!--Strong Locks, No Walls-->
+</head>
+<body>
+  <h1>Login</h1>
+  <input id="username" placeholder="Username">
+  <br><br>
+  <input id="password" type="password" placeholder="Password">
+  <br><br>
+  <button onclick="login()">Login</button>
+  <p id="invalid_msg" style="color:#ff0000"></p>
+
+  <script>
+    const USERS = {
+      "admin": "f4f135969334cd3fd6ec96dabdaaaa61508bc3d28080d8543c766965b24534b4",
+      "alice": "4e40e8ffe0ee32fa53e139147ed559229a5930f89c2204706fc174beb36210b3", //hash of alice123
+      "bob": "8d059c3640b97180dd2ee453e20d34ab0cb0f2eccbe87d01915a8e578a202b11", //hash of bob123
+      "moria": "83006a438f94daf3a7dd9c7b27f70c15e443c0ca55d58fcdfa76899ae466b455"
+    };
+
+    async function sha256(input) {
+      const data = new TextEncoder().encode(input);
+      const hash = await crypto.subtle.digest("SHA-256", data);
+      return Array.from(new Uint8Array(hash)).map(b => b.toString(16).padStart(2, "0")).join("");
+    }
+
+    async function login() {
+      const user = document.getElementById("username").value;
+      const pass = document.getElementById("password").value;
+
+      if (!USERS[user]) {
+        document.getElementById("invalid_msg").innerText = "Invalid username or password";
+        return;
+      }
+
+      const hashed = await sha256(pass);
+      if (hashed !== USERS[user]) {
+        document.getElementById("invalid_msg").innerText = "Invalid username or password";
+        return;
+      }
+      if (user === "admin") {
+        window.location = "admin.html"; //!
+      } else {
+        window.location = "user.html?user=" + encodeURIComponent(user);
+      }
+    }
+  </script>
+</body>
+</html>
+
+

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>User Dashboard</title>
+</head>
+<body>
+  <h1>User Dashboard</h1>
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const user = params.get("user");
+    if (!user) {
+      document.body.innerHTML = "<p>Please log in.</p>";
+    } else {
+      document.body.innerHTML = "<p>Welcome, " + user + ".</p>";
+    }
+  </script>
+</body>
+</html>
+
