@@ -1,0 +1,21 @@
+name: Secret Word 🤐
+author: Auric115
+category: Misc
+description: |
+    Find the flag hidden in this suspicious Word Document.
+
+  Flag format: texsaw{flag}
+  ex: texsaw{orthogonal}
+
+attribution: Written by Auric115
+value: 100
+type: standard
+flags:
+  - {
+      type: static,
+      content: "texsaw{surpr1se!_w0rd_f1les_ar3_z1p_4rchives_60709013771}",
+      data: case_insensitive,
+  }
+files:
+  - challenge.docx
+state: hidden
