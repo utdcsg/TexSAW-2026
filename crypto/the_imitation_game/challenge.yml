@@ -1,22 +1,20 @@
-name: The Imitation Game
-author: minlit
-category: crypto
+name: "The Imitation Game"
+author: "minlit"
+category: "crypto"
 description: |
     There's a spy amongst us! We found one of their messages, but can't seem to crack it.
     For some reason, they wrote the message down twice.
 
-  Flag format: texsaw{flag}
-  ex: texsaw{orthogonal}
-
-attribution: Written by minlit
+    Flag format: texsaw{flag}
+    ex: texsaw{orthogonal}
+attribution: "Written by minlit"
 value: 200
 type: standard
 flags:
-  - {
-      type: static,
-      content: "texsaw{luojmfsgmkqltenaemdqlxgtyrfdlzxdmqmxysvdettsxpatcq}",
-  }
+    - {
+        type: "static",
+        content: "texsaw{luojmfsgmkqltenaemdqlxgtyrfdlzxdmqmxysvdettsxpatcq}"
+    }
 files:
-  - ciphertext.txt
+    - dist/ciphertext.txt
 state: hidden
-
