@@ -2,7 +2,8 @@ name: The Imitation Game
 author: minlit
 category: crypto
 description: |
-    There's a spy amongst us! We found one of his messages, but can't seem to crack it.
+    There's a spy amongst us! We found one of their messages, but can't seem to crack it.
+    For some reason, they wrote the message down twice.
 
   Flag format: texsaw{flag}
   ex: texsaw{orthogonal}
@@ -13,7 +14,7 @@ type: standard
 flags:
   - {
       type: static,
-      content: "texsaw{sometimesitisthepeoplenoonecanimagineanythingofwhodothethingsnoonecanimagine}",
+      content: "texsaw{luojmfsgmkqltenaemdqlxgtyrfdlzxdmqmxysvdettsxpatcq}",
   }
 files:
   - ciphertext.txt
