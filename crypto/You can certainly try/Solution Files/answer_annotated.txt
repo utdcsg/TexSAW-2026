@@ -1,0 +1,1000 @@
+2 - Rusty fails persuasion
+19 - Foo passes persuasion
+18 - Rusty passes perception
+7 - Foo passes perception
+3 - ukoG fails percetpion
+12 - ukoG takes 7 piercing damage leaving him with 93hp
+20 - ukoG passes the dex save
+13 - Rusty passes acrobatics
+5 - Foo fails acrobatics leaving him with 150hp
+6 - ukoG passes acrobatics check
+9 - Rusty fails athletics check - rusty has disadvantage on rolls
+14 - Foo passes athletics check
+18 - ukoG passess athletcs check
+19 - Rusty rolls initative and gets 21
+18 - Foo Rolls initative and gets 20
+9 - ukoG Rolls initative and gets 12
+20 - Goblin boss 1 rolls initative and gets 22
+16 - Goblin boss 2 rolls initative and gets 18
+18 - Goblin boss 2 rolls initative and gets 20
+11 - Goblin boss 3 rolls initative and gets 13
+16 - Goblin Boss 1 Target roll, 3: ukoG
+1 - Goblin Boss 1 behavior roll 
+15 - Goblin Boss 1 makes scimitar attack against self, hits
+4 - Goblin boss 1 takes 5 Damage, leaving it with 45HP
+12 - Rusty casts Magic missile 2nd lvl at boss 1, leaving him with 2 2nd level slots
+6 - Boss 1 takes 9 damage leaving him with 36hp
+14 - Boss 1 takes 17 damage, leaving him with 19hp
+15 - Boss 1 takes 18 damage, leaving him with 1 hp
+16 - Foo Behavior Roll
+18 - Foo regains 23hp leaving him at his max of 155
+16 - Goblin boss 2 Target roll, 3: ukoG
+13 - Goblin boss 2 Behavior roll, does nothing
+4 - Goblin boss 3 target roll, 1: Rusty
+14 - Goblin boss 3 Behavior roll, makes ranged attack
+1 - Ranged attack misses
+17 - ukoG behavior , moves out of melee range and takes dodge action
+14 - Goblin boss 1 Target roll, 3: ukoG
+3 - Goblin boss 1 Behavior roll, Moves out of melee and takes dodge action
+6 - Rusty Behavior roll, casts magic missile
+14 - Goblin boss 1 dies
+11 - Foo Behavior roll, takes dodge action
+7 - Goblin boss 2 Target roll, Targets rusty
+19 - Goblin boss 2 Behavior Roll, Does nothing
+18 - Goblin boss 3 Target roll, ukoG
+20 - Goblin boss 3 does nothing
+9 - Rusty Behavior roll, Rusty Casts Fire bolt
+7 - Fire bolt hits Goblin boss 2
+14 Fire bolt deals 16 fire damage to goblin 2, but because vulnerability deals 32 fire damage leaving goblin 2 with 18hp
+6 - Foo Behavior Roll, moves into melee range of Goblin 2 and makes 2 attacks 
+9 - First attack hits
+20 - Crit, Goblin 2 is dead as a doornail
+9 - Goblin 3 behavior roll
+3 - Goblin 3 does nothing
+16 - Rusty behavior roll, rusty uses a 2nd level spell to cast Scorching Ray, 2 2nd level slots remaining
+13 - Hits goblin 3
+13 - Does 26 fire damage to goblin 3 - 24hp left
+9 - Does 18 fire dmage to goblin 3 - 6hp left
+8 - Hits goblin 3
+6 - Goblin 3 is dead
+15 - 2nd damage roll of scorching ray
+8 - Rusty investigation, success, rusty at max hp
+5 - Failure investigation
+1 - Failure investigation
+2 - Rusty Survival check fail
+8 - Rusty takes 8 damage, rusty is at 62hp
+11 - Foo Survival check pass
+14 - Ukog Survival check pass
+2 - Rusty Rolls a 4 for init
+18 - Foo Rools 20 on init 
+7 - ukoG rolls 10 on init 
+10 - Bulette rolls 10 on init
+17 - Foo rolls on behavior chart, moves out of melee range
+10 - ukoG rolls on behavior chart, takes dodge action
+11 - Bulette rolls for target, Foo
+19 - Bulette rolls on behavior chart, makes bite attack
+15 - bite roll to hit against foo, hits 
+14 - Foo takes 18 (adding the +4 now for accounting) damage - 137 remaining
+15 - Foo takes 15 - 122 remaining
+19 - Foo takes 19 - 103 remaining
+16 - Rusty rolls on behavior chart, casts scorching ray
+6 - miss
+6 - miss
+17 - hit
+5 - bulette takes 5 dmg, 145 left
+20 - takes 20 damage, 125 left
+7 - Foo rolls on behavior chart, makes 2 melee attacks
+6 - miss
+7 - miss
+7 - ukoG rolls on behavior chart, takes dodge action
+20 - Target roll, reroll
+8 - Target roll, rusty
+14 - Behavior roll bulette, deadly leap
+18 - successful save from rusty
+3 - Rusty behavior roll
+3 - Rusty moves out of melee range
+17 - Bulette expends reaction and makes opportunity bite attack
+1 - miss
+7 - Foo behavior roll, makes two attacks
+7 - miss
+19 - hit
+16 - 16 dmg, 39 total, 86hp left (error, ignore 89, should be 19 higher)
+8 - 8 dmg (28 total)
+6 - ukoG Behavior roll, 1 attack
+20 - Crit
+18 - 18 dmg + 4 22 damage, 64 hp remaining
+5 - 5 dmg, 59hp remaining
+20 - Bulette Target roll, reroll 
+19 - Targets ukoG
+10 - behavior roll, bite attack
+17 - hits
+15 - 19, (str mod included) 74hp for ukoG
+6 - ukog takes 6, 68
+8 - ukog takes 8, 60
+11 - rusty behavior roll,  last 2nd level slot to cast scorching ray
+5 - miss
+11 - hit
+2 - 2 dmg, bullete has 57 remaining
+15 - 15 dmg, bulette has 42 remaining (actually 61 remaining, correcting earlier math error)
+8 - miss
+2 - foo behavior roll, 2 attacks
+8 - miss
+9 - miss
+3 - ukoG behavior roll, dodge
+3 - Bulette attack of opportunity
+7 - Miss
+18 - Miss
+14 - Target Roll, Ukog
+3 - Behavior roll, Bite attack
+8 - miss
+16 - miss
+3 - Rusty Behavior roll, attempts to cast 2nd level spell but does not
+11 - Foo behavior roll, Dodge action
+2 - ukoG behavior roll, 1 attacks
+3 - miss
+7 - Bulette Target roll, Rusty
+1 - Bulette Behavior Roll, dodges
+8 - Rusty Behavior roll
+17 - Rusty casts Mfing FIREBALL
+16 - 16dmg (37 left)
+6 - 6 dmg (31 left)
+6 - 6 dmg (25 left)
+12 - (12 dmg, 13 left)
+10 - 10 dmg 3 left
+17 - 17 damage, dead
+17 - damage
+14 - damage (end of fireball) (ok so health damage was off but fireball nuke is pretty decisive enough to correct for errors)
+12 - First element of code
+14
+6
+8
+17
+20
+19
+12
+1
+12
+15
+13
+15
+3
+19
+20
+13
+19
+3
+14
+3
+20
+16
+4
+15
+7
+5
+8
+3
+1
+15
+10
+2
+17
+19
+9
+14
+4
+18
+19
+10
+14
+17
+14
+8
+12
+7
+1
+14
+2
+19
+10
+13
+9
+15
+13
+6
+20
+13
+7
+10
+15
+3
+4
+5
+18
+17
+20
+18
+4
+8
+5
+18
+15
+14
+9
+12
+9
+7
+16
+16
+5
+16
+12
+15
+12
+19
+8
+17
+9
+3
+19
+2
+1
+15
+4
+15
+5
+15
+2
+5
+20
+16
+14
+6
+4
+17
+20
+6
+1
+18
+4
+8
+3
+2
+10
+12
+7
+11
+3
+11
+6
+1
+13
+20
+17
+13
+13
+6
+6
+7
+9
+12
+10
+8
+12
+13
+2
+1
+20
+4
+3
+1
+14
+12
+7
+15
+15
+20
+7
+20
+3
+18
+6
+9
+7
+16
+8
+4
+12
+10
+19
+4
+9
+5
+1
+3
+18
+1
+9
+16
+13
+14
+12
+14
+15
+12
+5
+12
+13
+10
+11
+3
+2
+18
+3
+6
+17
+4
+9
+15
+7
+2
+9
+20
+20
+12
+14
+2
+4
+4
+8
+4
+19
+3
+19
+10
+14
+15
+2
+3
+11
+17
+6
+20
+10
+7
+17
+3
+7
+3
+12
+20
+14
+9
+19
+3
+6
+4
+9
+4
+14
+7
+5
+2
+20
+3
+15
+11
+3
+9
+17
+6
+8
+17
+2
+8
+17
+12
+15
+3
+10
+5
+16
+5
+10
+9
+14
+6
+13
+17
+5
+8
+10
+8
+17
+12
+17
+10
+4
+18
+3
+5
+11
+2
+13
+9
+9
+3
+6
+15
+4
+11
+12
+20
+9
+16
+8
+2
+4
+12
+13
+4
+16
+6
+16
+3
+9
+1
+12
+14
+16
+19
+1
+16
+9
+12
+6
+12
+16
+11
+15
+19
+7
+9
+9
+5
+13
+18
+8
+3
+9
+4
+6
+3
+17
+18
+3
+6
+17
+6
+12
+13
+10
+10
+10
+13
+16
+9
+17
+1
+8
+16
+7
+6
+4
+7
+2
+5
+19
+18
+8
+19
+17
+8
+14
+10
+20
+1
+11
+8
+19
+1
+3
+12
+5
+1
+14
+13
+11
+7
+11
+17
+10
+19
+10
+14
+9
+4
+3
+4
+5
+4
+14
+7
+9
+16
+17
+16
+2
+9
+4
+3
+5
+2
+2
+11
+12
+7
+8
+3
+4
+14
+8
+7
+2
+11
+12
+14
+16
+11
+10
+6
+19
+10
+12
+4
+9
+20
+20
+16
+18
+1
+4
+13
+8
+15
+15
+16
+20
+3
+13
+13
+4
+7
+9
+9
+12
+12
+14
+8
+9
+15
+1
+15
+3
+20
+16
+6
+16
+10
+14
+7
+17
+15
+17
+15
+13
+19
+11
+8
+18
+7
+19
+14
+3
+13
+3
+6
+15
+11
+8
+20
+4
+7
+11
+2
+14
+13
+1
+18
+8
+18
+11
+15
+19
+13
+16
+17
+12
+7
+6
+10
+18
+2
+13
+7
+6
+19
+20
+16
+18
+17
+6
+10
+8
+15
+11
+4
+5
+5
+10
+4
+20
+14
+12
+2
+16
+17
+16
+20
+5
+12
+16
+19
+17
+5
+8
+2
+8
+5
+10
+14
+2
+11
+17
+12
+6
+4
+19
+11
+5
+10
+1
+3
+18
+5
+19
+8
+5
+15
+5
+12
+14
+8
+20
+20
+10
+20
+10
+15
+13
+7
+6
+10
+8
+8
+19
+3
+5
+20
+4
+2
+12
+8
+14
+12
+16
+17
+16
+10
+16
+2
+15
+6
+15
+3
+19
+20
+1
+12
+16
+12
+1
+19
+19
+9
+11
+4
+16
+14
+15
+4
+11
+3
+19
+14
+9
+2
+9
+12
+8
+14
+11
+20
+16
+11
+11
+17
+17
+8
+11
+7
+8
+13
+19
+7
+16
+3
+19
+5
+17
+15
+14
+12
+16
+18
+13
+17
+11
+17
+9
+5
+15
+19
+14
+1
+14
+3
+2
+15
+20
+2
+19
+12
+2
+8
+3
+6
+15
+4
+19
+15
+1
+7
+7
+18
+1
+1
+12
+9
+7
+2
+10
+19
+4
+16
+8
+10
+2
+16
+15
+6
+3
+4
+3
+2
+19
+15
+17
+5
+11
+8
+18
+3
+11
+15
+8
+10
+1
+1
+19
+3
+13
+19
+5
+12
+7
+17
+13
+16
+17
+15
+20
+16
+20
+14
+11
+5
+20
+16
+13
+10
+6
+18
+1
+3
+9
+6
+8
+20
+14
+10
+3
+5
+5
+15
+11
+11
+10
+1
+13
+14
+7
+6
+8
+10
+1
+19
+6
+9
+12
+12
+8
+6
+19
+13
+6
+3
+17
+6
+15
+13
+11
+15
+7
+20
+14
+13
+6
+15
+13
+9
+2
+19
+14
+5
+12
+3
+6
+10
+9
+10
+19
+20
+20
+6
+1
+12
+13
+12
+9
+17
+12
+4
+5
+17
+3
+11
+8
+11
+13
+17
+9
+15
+15
+14
+9
+7
+4
+19
+5
+19
+5
+20
+17
+6
+10
+1
+9
+11
+3
+7
+11
+20
+16
+9
+18
+16
+13
+4
+1
+20
+11
+1
+20
+19
+16
+10
+10
+7
+18
+8
+10
+6
+16
+8
+16
+8
+16
+15
+7
+6
+4
