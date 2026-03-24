@@ -1,0 +1,1 @@
+Reversing the pyc results in realizing its a mersenne twister algoritm, reveresing the entropy out of the as in the solver.py script included here allows for the next series of rolls to be determined, from that point you play through the adventure and use those rolls to get the secret code.
