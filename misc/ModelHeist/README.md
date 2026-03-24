@@ -24,26 +24,7 @@ ModelHeist/
 ## Building the Challenge
 
 ```bash
-make build
-```
-
-This will:
-1. Install required dependencies
-2. Generate the model with the hidden flag
-3. Copy files to the `dist/` directory
-
-## Testing the Solution
-
-```bash
-make test
-```
-
-This runs the solution script to verify the flag can be extracted correctly.
-
-## Clean Build Artifacts
-
-```bash
-make clean
+python src/create_model.py
 ```
 
 ## Flag
