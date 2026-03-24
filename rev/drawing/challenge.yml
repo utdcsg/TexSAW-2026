@@ -1,0 +1,20 @@
+name: drawing
+author: 2elli
+category: rev
+description: |
+    drawing be like
+
+  Flag format: texsaw{flag}
+  ex: texsaw{orthogonal}
+
+value: 500
+type: standard
+flags:
+  - {
+      type: static,
+      content: "texsaw{switch96959d49370}",
+      data: case_insensitive,
+  }
+files:
+  - drawing.nro
+state: hidden
