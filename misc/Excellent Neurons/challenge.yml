@@ -1,0 +1,21 @@
+name: Excellent Neurons
+author: Auric115
+category: Misc
+description: |
+    Find the flag by reverse engineering this neural network. Oh, and its in Excel.
+
+  Flag format: texsaw{flag}
+  ex: texsaw{orthogonal}
+
+attribution: Written by Auric115
+value: 150
+type: standard
+flags:
+  - {
+      type: static,
+      content: "texsaw{n3ur4l_r3v3rs3}",
+      data: case_insensitive,
+  }
+files:
+  - challenge.xlsx
+state: hidden
