@@ -1,5 +1,5 @@
 name: Ragebait
-author: Matthew Krzewinski
+author: Matthew
 category: Rev
 description: |
     Hopefully this doesn't frustrate you too much...  
@@ -7,7 +7,7 @@ description: |
   Flag format: texsaw{flag}
   ex: texsaw{on1y_l3tters_4nd_numb3rs}
 
-attribution: Written by Matthew Krzewinski
+attribution: Written by Matthew
 value: 250 
 type: standard
 flags:
