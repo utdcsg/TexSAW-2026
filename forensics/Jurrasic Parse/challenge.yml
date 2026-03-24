@@ -1,0 +1,21 @@
+name: Jurrasic Parse
+author: Nicolas Gaffney
+category: forensics
+description: |
+    I found this neat picture of my favorite dinosaur! I wonder what they eat...
+
+  Flag format: texsaw{flag}
+  Example flag format: texsaw{part1_part2_part3}
+
+attribution: Written by Nicolas Gaffney
+value: 200
+type: standard
+flags:
+  - {
+      type: static,
+      content: "texsaw{Steg0s@urus_Eats_APL1eS}",
+      data: case_sensitive,
+  }
+files:
+  - STEGOSAURUS.png
+state: hidden
