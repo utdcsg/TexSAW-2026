@@ -1,0 +1,23 @@
+name: Three Secrets
+author: Chinmay
+category: Miscellaneous
+description: |
+    When the three secrets are brought together only then can the flag be constructed. 
+
+  Flag format: texsaw{super_epic_flag}
+  ex: texsaw{orThog0n@l_PiZZ@_$0X}
+
+attribution: Written by Chinmay
+value: 300
+type: standard
+flags:
+  - {
+      type: static,
+      content: "texsaw{Ob$cur3_steganography_challenge}",
+      data: case_sensitive,
+  }
+files:
+  - dist/one.mp3
+  - dist/two.gif
+  - dist/three.png
+state: visible
