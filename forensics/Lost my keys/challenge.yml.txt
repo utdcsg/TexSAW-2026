@@ -1,0 +1,20 @@
+name: Lost my keys
+author: Coy
+category: Forensics
+description: |
+    I can't find my original house key anywhere! Can you help me find it? Here's a picture of my keys the nanny took before they were lost. It must be hidden somewhere!
+
+  Flag format: texsaw{you_found_me_at_key}
+
+attribution: Written by Coy
+value: 250 
+type: standard
+flags:
+  - {
+      type: static,
+      content: "texsaw{you_found_me_at_key}",
+      data: case_insensitive,
+  }
+files:
+  - Temoc_keyring.png
+state: hidden
