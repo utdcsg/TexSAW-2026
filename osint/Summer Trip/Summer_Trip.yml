@@ -1,5 +1,5 @@
-name: Campus Tree Survey
-author: Monan Paul
+name: Summer Trip
+author: Ben
 category: OSINT
 description: |
     Ohno, I took a photo of a poster on a trip and, I can not remember where I took it. Please help me find the coordinates.
@@ -15,9 +15,10 @@ type: standard
 flags:
   - {
       type: static,
-      content: "texsaw{205596_Dining_Hall_West}",
+      content: "texsaw{35_40_11N-139_42_22E}",
       data: case_insensitive,
   }
 files:
   - Summer_Trip.jpeg
 state: hidden
+
