@@ -15,7 +15,7 @@ type: standard
 flags:
   - {
       type: static,
-      content: "texsaw{Sleep_Is_for_the_Weak}",
+      content: "texsaw{The_Dreadnoughts_Sleep_Is_for_the_Weak}",
       data: case_sensitive,
     }
 files:
