@@ -1,0 +1,8 @@
+services:
+  scrop1:
+    build: .
+    ports:
+      - 1900:5000
+    privileged: true
+    restart: unless-stopped
+
