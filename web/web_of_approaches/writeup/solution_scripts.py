@@ -44,13 +44,11 @@ def retrive_hidden_bits(s):
 
 if __name__ == "__main__":
     reverse_flag_image()
+    exit()
     retrieved_flags = [
-        "M5v4Ij==o5HGgx==C1C4gT==HUmGgI==H1PxgQ==ISp7IB==iSb4Ij==C7AbCZ==IS4QIu==H5p2iJ==HU42CF==CWNekD==iSbRor==IjfVkl==gZNQij==g742CZ==gZqG",
-        "FSzGCr==kUvTIB==iSb4oF==Ij4wiD==IjiRou==oWN2Ci==CU0GiB==oZNQCl==H1PrkS==IjiVCs==g7lGsF==oelGoR==oePtHF==oSAvIa==oU49kJ==iWNwi9==C1PXo5p3IWhG",
-        "FSbZCM==CdNmHl==g9fQIJ==o5HGHC==Iji4H9==IjNbCQ==CdmGiJ==kSlGg/==ijP8He==ijFZCl==6WNxkB==CdNQih==sUA46J==ISJ2Ca==IjfVC1==Ijnrgr==k1Nx6KhG",
-        "f7pZIB==iSbRgm==ISnVHU==oSA4oX==C5lXIJ==sUp8IS==i54XoB==ISv4CM==CWNxo8==Ijn4HD==g7nVIB==HUnZox==geYGiJ==kSFtIa==HUAX67==IWhGIB==",
-        "f742Hl==oSAv6I==IjP4oM==CU8KCl==gKNvo5==idNtig==ge0GgQ==iUPtkf==iWNxkS==CdN7oO==HUgGkl==oKNxkj==CdNmgr==oeN4gr==ISCwgK==oUJx6G=="
-        
+        "M5v4Ij==o5HGgx==C1C4gT==HUmGgI==H1PxgQ==ISp7IB==iSb4Ij==C7AbCZ==IS4QIu==H5p2iJ==HU42CF==CWNQo/==oUFekB==C1P4Iu==kUvQk1==CSlGoZ==CKNxkB==k1YGgQ==ijPRo4==CZqGIa==IWhGIu==IWhGIn==IWhGIB==IWhGIu==IWhGIS==IWhGIO==",
+        "FSzGC4==kUvTIP==HUAXIJ==iSb4Ia==gSJZiJ==gZNvoe==idNekM==oSmGoT==CUFTIJ==iSzGgv==CUJZHe==kWNekB==C1P4IJ==sUp8Ia==o7pZo1==HUAXsl==IS8RCQ==kj0Gom==i7FZoJ==o5p3Ia==IWhGIj==IWhGIB==IWhGIB==IWhGIh==IWhGIS==IWhGIY==",
+        "FSb4g4==CdNbg7==CdNxkB==g7F4IB==gSJZiJ==gZNwCw==ISuGiQ==CUIGgu==HUi46J==IjfVCD==Ijnxg7==iUnxiM==g7lXIu==iSb4II==gefvoB==CdmGHl==o70GiS==kSlGgz==HePRgB==iWqGIN==IWhGIS==IWhGIO==IWhGIu==IWhGIj==IWhGIB==IWhGIB=="
     ]
     converted_flags = [decode_substitution_cipher(flag) for flag in retrieved_flags]
     flag_bits = ""
