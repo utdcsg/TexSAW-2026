@@ -8,29 +8,29 @@ static void *mmap_or_die(void *const addr, size_t const len, int const prot,
                          int const flags, int const fd, off_t const off);
 
 void _start(void) {
-    //win();
     size_t capacity = PAGESIZE;
     unsigned char *const bytecode =
         mmap_or_die(NULL, capacity, PROT_READ | PROT_WRITE,
                     MAP_ANONYMOUS | MAP_PRIVATE, -1, 0);
     size_t bytes_read = 0;
-    while (true) {
+
+    //while (true) {
         ssize_t const read_rc =
-            read(STDIN_FILENO, bytecode + bytes_read, capacity - bytes_read);
+            read(STDIN_FILENO, bytecode + read_rc, capacity);
         if (read_rc < 0) {
             exit(EXIT_FAILURE);
         }
         if (read_rc == 0) {
-            break;
+            //break;
         }
         bytes_read += read_rc;
-        if (bytes_read == capacity) {
+        if (read_rc == capacity) {
             mmap_or_die(bytecode + capacity, PAGESIZE, PROT_READ | PROT_WRITE,
                         MAP_ANONYMOUS | MAP_PRIVATE | MAP_FIXED_NOREPLACE, -1,
                         0);
             capacity += PAGESIZE;
         }
-    }
+    //}
 
     if (mprotect(bytecode, capacity, PROT_READ) != 0) {
         exit(EXIT_FAILURE);
@@ -166,9 +166,14 @@ void print_value_and_exit(uint64_t const v) {
     exit(EXIT_SUCCESS);
 }
 
+// get a null onto the stack
+// primapply &win
 void win() {
-   const char* const argv[] = {"cat", "flag.txt", NULL};
-   execve("/bin/cat", argv, NULL);
+    char buf[256];
+    int fd = open("flag.txt", 0);
+    read(fd, buf, 256);
+    write(1, buf, 256);
+    return;
 }
 
 

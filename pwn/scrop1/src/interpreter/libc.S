@@ -21,6 +21,13 @@ write:
     syscall
     ret
 
+#define SYS_open 2
+.global open
+open:
+    mov rax, SYS_open
+    syscall
+    ret
+
 #define SYS_mmap 9
 .global mmap
 mmap:

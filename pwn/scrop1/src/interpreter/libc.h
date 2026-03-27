@@ -41,4 +41,6 @@ ssize_t read(int fd, void *buf, size_t count);
 
 ssize_t write(int fd, void const *buf, size_t count);
 
-int execve(const char *filename, const char *const *argv, const char *const *argp);
+int open(const char *path, int oflag, ... );
+
+//int execve(const char *filename, const char *const *argv, const char *const *argp);
