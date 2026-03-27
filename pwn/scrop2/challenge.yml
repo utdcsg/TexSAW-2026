@@ -1,0 +1,22 @@
+name: SIGBOVIK II - Errata
+author: charles
+category: pwn
+description: |
+    We had to make some last minute changes to our assembler, sorry!
+
+  Flag format: texsaw{example_flag}
+
+attribution: Written by charles
+value: 400
+type: standard
+flags:
+  - {
+      type: static,
+      content: "texsaw{primapply_ftw_02934801932840981203498}",
+      data: case_insensitive,
+  }
+files:
+  - dist/assembler.tar.gz
+  - dist/compiler.tar.gz
+  - dist/interpreter
+state: visible
