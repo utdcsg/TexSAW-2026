@@ -4,7 +4,7 @@ category: Forensics
 description: |
     I can't find my original house key anywhere! Can you help me find it? Here's a picture of my keys the nanny took before they were lost. It must be hidden somewhere!
 
-  Flag format: texsaw{you_found_me_at_key}
+  Flag format: texsaw{flag_here}
 
 attribution: Written by Coy
 value: 250 
