@@ -12,7 +12,7 @@ type: standard
 flags:
   - {
       type: static,
-      content: "texsaw{you_found_me_at_key}",
+      content: "texsaw{keys_are_the_secret_to_success}",
       data: case_insensitive,
   }
 files:
