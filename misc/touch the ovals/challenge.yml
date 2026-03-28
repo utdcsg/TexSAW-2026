@@ -1,0 +1,14 @@
+name: Touch the Ovals
+author: apric1tyy
+category: Misc
+description: |
+    The opps thought that they could speed up their network with the Randall Munroe file transfer method, so we wiretapped a butterfly garden. Can you tri to decode the file with the partial information we have and find the flag inside?
+
+  Flag format: texsaw{flag}
+
+attribution: Written by apric1tyy
+value: 500 
+type: standard
+flags:
+  - texsaw{d30Xyr1B0Nucl31C_4Cid}
+state: hidden
