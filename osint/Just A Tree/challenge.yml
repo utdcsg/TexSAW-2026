@@ -2,7 +2,8 @@ name: Just A Tree
 author: Auric115
 category: OSINT
 description: |
-    Find this tree. Identify it's type (species) and location (longitude and latitude to 3 decimal places).
+    Find the tree featured prominently in this photo (the tall one in the center). 
+    Identify it's type (species) and location (longitude and latitude to 3 decimal places).
 
   Flag format: texsaw{tree_type@(logitude,latitude)}
   ex: texsaw{coast_redwood@(41.381,-124.044)}
