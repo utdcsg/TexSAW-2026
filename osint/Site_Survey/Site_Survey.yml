@@ -5,7 +5,7 @@ description: "We recovered this photo from a facility management survey. The dat
 value: 100
 type: standard
 flags:
-  - texsaw{205596_Dining_Hall_West}
+  - texsaw{QXNzZXRfUmVjb3ZlcnlfRGF0YTogVGFnIDY1MzQsIFNpdGUgODI_205596_Dining_Ha!!_West}
 files:
   - unnamed.jpg
 state: visible
