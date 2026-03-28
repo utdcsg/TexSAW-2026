@@ -1,5 +1,5 @@
 name: Three Secrets
-author: Chinmay
+author: cman
 category: Miscellaneous
 description: |
     When the three secrets are brought together only then can the flag be constructed. 
@@ -9,7 +9,7 @@ description: |
   Flag format: texsaw{super_epic_flag}
   ex: texsaw{orThog0n@l_PiZZ@_$0X}
 
-attribution: Written by Chinmay
+attribution: Written by cman
 value: 300
 type: standard
 flags:
