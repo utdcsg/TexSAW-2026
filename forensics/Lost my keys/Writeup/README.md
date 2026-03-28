@@ -12,14 +12,14 @@ I can't find my original house key anywhere! Can you help me find it? Here's a p
 2) Unzip 'key.zip' which will reveal 'Temoc_keyring(orig).png' and 'where_are_my_keys.png'. 
 	'Temoc_keyring(orig).png' is the original image and 'where_are_my_keys.png' is the decrypter
 
-3) Using a software program like SSuite Picsel Encrytion, the image can be decrypted to reveal the hidden flag: texsaw{you_found_me_at_key}
+3) Using a software program like SSuite Picsel Encrytion, the image can be decrypted to reveal the hidden flag: texsaw{keys_are_the_secret_to_success}
 
 ## Author name 
 @Coy
 
 ## Build instructions
 In case the challenge needs to be rebuilt.
-1 - Building key.zip: Use a smaller image file than what you intend to use as your cover image. Using SSuite Picsel Encrytion, encrypt the image with the flag 'texsaw{you_found_me_at_key}'. Save this image, this will be used to decrypt the original image. Zip both images together as 'key.zip'
+1 - Building key.zip: Use a smaller image file than what you intend to use as your cover image. Using SSuite Picsel Encrytion, encrypt the image with the flag 'texsaw{keys_are_the_secret_to_success}'. Save this image, this will be used to decrypt the original image. Zip both images together as 'key.zip'
 
 2 - Building the cover image: With a larger sized image, add hint text to the image itself. In a photo editor, use color picker on the background and adjust the color slightly and write 'key' then save the image. MUST BE PNG FORMAT. 
 
