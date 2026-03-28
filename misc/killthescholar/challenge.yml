@@ -1,0 +1,22 @@
+name: Kill the Scholar
+author: Charles
+category: Misc
+description: |
+    Conjure a theorem, write a proof
+    Make the scholar loop the loop
+
+    If it succeeds, woe you'll feel,
+    Else you'll feast on flags for real!
+
+  Flag format: texsaw{flag}
+
+attribution: Written by Charles
+value: 400
+type: standard
+flags:
+  - {
+      type: static,
+      content: "texsaw{pro_you_are_or_maybe_not?_steal_solution_from_internet_perhaps_you_bot}",
+      data: case_insensitive,
+  }
+state: visible

@@ -1,0 +1,9 @@
+services:
+  # This is your "outer" container that runs Docker inside it
+  outer:
+    build:
+      dockerfile: Dockerfile
+    privileged: true
+    ports:
+      - "3333:3333"
+
