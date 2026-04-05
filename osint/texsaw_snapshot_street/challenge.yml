@@ -1,0 +1,29 @@
+name: Snapshot Street
+author: Dhruv Tripathi
+category: osint
+description: |
+  Wandering through this country, or is it a continent?, you’ll notice a mix of
+  everyday city life: a café where locals gather, a ᗰajor fast-food spot bustling
+  with activity, and a modest lodge tucked nearby.
+
+  These three locations form a loose triangle in the area. Looking around and
+  in between them can help narrow down the exact location. If you look closely,
+  it’s like taking a beautiful SS of the scene and you might just spot the street
+  hidden in plain sight.
+
+  Find the name of the street.
+
+  Flag format: texsaw{street_name}
+
+attribution: Written by Dhruv Tripathi
+value: 100
+type: standard
+flags:
+  - {
+      type: static,
+      content: "texsaw{salonika_st}",
+      data: case_insensitive,
+    }
+files:
+  - dist/photo_1.png
+state: visible

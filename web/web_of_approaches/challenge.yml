@@ -1,0 +1,16 @@
+name: Web of Approaches
+author: Bluedetroyer
+category: Web
+description: |
+    I made a little quiz! It may not look like much, but many things can be hidden in plain sight if you know where to look.
+
+  Flag format: texsaw{flag}
+  ex: texsaw{3x4Mp13_Fl4G}
+
+attribution: Written by Bluedetroyer
+value: 150 
+type: standard
+connection_info: TBD
+flags:
+  - texsaw{tH3rE_4r3_M4nY_W4Ys_t0_s0lV3_4_cH4l1nG3}
+state: visible

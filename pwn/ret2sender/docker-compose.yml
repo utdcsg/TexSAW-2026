@@ -1,0 +1,7 @@
+services:
+  ret2sender:
+    build: .
+    ports:
+      - 15858:5000
+    privileged: true
+    restart: unless-stopped

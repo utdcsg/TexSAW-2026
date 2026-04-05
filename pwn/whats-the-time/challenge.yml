@@ -1,0 +1,21 @@
+name: Whats the Time?
+author: kaber
+category: pwn
+description: |
+    I think one of the hands of my watch broke. Can you tell me what the time is?
+
+  Flag format: texsaw{flag}
+  ex: texsaw{flag}
+
+attribution: Written by kaber
+value: 400
+type: standard
+flags:
+  - {
+      type: static
+      content: texsaw{7h4nk_u_f0r_y0ur_71m3}
+      data: case_insensitive
+  }
+files:
+  - dist/whatsthetime
+state: visible

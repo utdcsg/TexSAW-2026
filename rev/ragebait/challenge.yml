@@ -1,0 +1,15 @@
+name: Ragebait
+author: Matthew
+category: Rev
+description: |
+    Hopefully this doesn't frustrate you too much...  
+
+  Flag format: texsaw{flag}
+  ex: texsaw{on1y_l3tters_4nd_numb3rs}
+
+attribution: Written by Matthew
+value: 250 
+type: standard
+flags:
+  - texsaw{VVhYd_U_M4k3_mE_s0_4n6ry}
+state: visible

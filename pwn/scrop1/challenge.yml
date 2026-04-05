@@ -1,0 +1,23 @@
+name: SIGBOVIK I
+author: charles
+category: pwn
+description: |
+    Do you like threaded interpreters?
+    https://www.charles.systems/publications/SCROP.pdf
+
+  Flag format: texsaw{example_flag}
+
+attribution: Written by charles
+value: 300
+type: standard
+flags:
+  - {
+      type: static,
+      content: "texsaw{ezpzlmnsqzy_didyoulikethepaper?_23948102938409}",
+      data: case_insensitive,
+  }
+files:
+  - dist/assembler.tar.gz
+  - dist/compiler.tar.gz
+  - dist/interpreter
+state: visible

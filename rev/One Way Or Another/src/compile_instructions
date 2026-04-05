@@ -1,0 +1,2 @@
+g++ -O2 -s ctf.cpp -o ctf
+strip ctf

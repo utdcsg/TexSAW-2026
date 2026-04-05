@@ -1,0 +1,13 @@
+services:
+  # This is your "outer" container that runs Docker inside it
+  outer:
+    build:
+      context: ./src
+      dockerfile: Dockerfile
+    privileged: true
+    ports:
+      - "8021:5000"
+    volumes:
+      # Mount your entire project directory into the outer container
+      - ./src:/workspace
+    working_dir: /workspace

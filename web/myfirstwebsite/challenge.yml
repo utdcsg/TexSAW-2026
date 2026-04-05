@@ -1,0 +1,17 @@
+name: My First Website
+author: myaltaccountsthis
+category: web
+description: |
+  Pretty basic website I made. Didn't spend much time on authentication, but I think it's secure!
+
+  Flag format: texsaw{flag}
+  ex: texsaw{th3_fl4g}
+
+attribution: Written by myaltaccountsthis
+value: 150
+type: standard
+flags:
+  - texsaw{whY_d1d_You_d0_th1sTo_m3}
+files:
+
+state: hidden

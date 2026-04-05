@@ -1,0 +1,200 @@
+SECTIONS {
+    . = 0x8008000;
+    .text : {
+    }
+
+    . = 0x9a99000;
+    .text.primapply : {
+        *(primapply)
+    }
+
+    . = 0xa991000;
+    .text.apply : {
+        *(apply)
+    }
+
+    . = 0x7991000;
+    .text.tailapply : {
+        *(tailapply)
+    }
+
+    . = 0x3e3e000;
+    .text.eqp : {
+        *(eqp)
+    }
+
+    . = 0xd0d0000;
+    .text.done : {
+        *(done)
+    }
+
+    . = 0x10ad000;
+    .text.load : {
+        *(load)
+    }
+
+    . = 0x0add000;
+    .text.add : {
+        *(add)
+    }
+
+    . = 0x050b000;
+    .text.sub : {
+        *(sub)
+    }
+
+    . = 0x0a55000;
+    .text.mul : {
+        *(mul)
+    }
+
+    . = 0x1700000;
+    .text.lt : {
+        *(lt)
+    }
+
+    . = 0xe3e3000;
+    .text.eq : {
+        *(eq)
+    }
+
+    . = 0xeeee000;
+    .text.zerop : {
+        *(zerop)
+    }
+
+    . = 0x1234000;
+    .text.integerp : {
+        *(integerp)
+    }
+
+    . = 0xb001000;
+    .text.booleanp : {
+        *(booleanp)
+    }
+
+    . = 0x4321000;
+    .text.nullp : {
+        *(nullp)
+    }
+
+    . = 0x7777000;
+    .text.not : {
+        *(not)
+    }
+
+    . = 0xcaca000;
+    .text.charp : {
+        *(charp)
+    }
+
+    . = 0xc701000;
+    .text.chartoint : {
+        *(chartoint)
+    }
+
+    . = 0x170c000;
+    .text.inttochar : {
+        *(inttochar)
+    }
+
+    . = 0x70ad000;
+    .text.jump : {
+        *(jump)
+    }
+
+    . = 0xca7000;
+    .text.cjump : {
+        *(cjump)
+    }
+
+    . = 0x9e7000;
+    .text.get : {
+        *(get)
+    }
+
+    . = 0x49e7000;
+    .text.forget : {
+        *(forget)
+    }
+
+    . = 0xc0c0000;
+    .text.cons : {
+        *(cons)
+    }
+
+    . = 0xca00000;
+    .text.car : {
+        *(car)
+    }
+
+    . = 0xcd00000;
+    .text.cdr : {
+        *(cdr)
+    }
+
+    . = 0x571f000;
+    .text.string : {
+        *(string)
+    }
+
+    . = 0x571e000;
+    .text.stringref : {
+        *(stringref)
+    }
+
+    . = 0x5715000;
+    .text.stringset : {
+        *(stringset)
+    }
+
+    . = 0x571a000;
+    .text.stringappend : {
+        *(stringappend)
+    }
+
+    . = 0x5ecf000;
+    .text.vector : {
+        *(vector)
+    }
+
+    . = 0x5ece000;
+    .text.vectorref : {
+        *(vectorref)
+    }
+
+    . = 0x5ec5000;
+    .text.vectorset : {
+        *(vectorset)
+    }
+
+    . = 0x5eca000;
+    .text.vectorappend : {
+        *(vectorappend)
+    }
+
+    . = 0xbaaa000;
+    .text.lambda : {
+        *(lambda)
+    }
+
+    . = 0xca11000;
+    .text.call : {
+        *(call)
+    }
+
+    . = 0x7a11000;
+    .text.tailcall : {
+        *(tailcall)
+    }
+
+    . = 0xdb22000;
+    .text.return : {
+        *(return)
+    }
+
+    . = 0x57ac000;
+    .text.frame : {
+        *(frame)
+    }
+}

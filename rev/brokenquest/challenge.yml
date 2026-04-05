@@ -1,0 +1,22 @@
+name: Broken Quest
+author: Wulfyrn
+category: rev
+description: |
+    These quest flags are totally just broken! I can't figure out how to complete the quest.
+	Note: There's two ways to do this.
+
+  Flag format: texsaw{example_flag}
+
+attribution: Written by Wulfyrn
+value: 300
+type: standard
+flags:
+  - {
+      type: static,
+      content: "texsaw{1t_ju5t_work5_m0r3_l1k3_!t_d0e5nt_w0rk}",
+      data: case_insensitive,
+  }
+files:
+  - dist/brokenquest
+  - dist/libc.so.6
+state: visible

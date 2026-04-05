@@ -1,0 +1,15 @@
+name: Template
+author: ag3nt
+category: Forensics
+description: |
+      It might be easier to go to an apple store.
+
+  Flag format: texsaw{flag}
+  ex: texsaw{flag}
+
+attribution: Written by ag3nt
+value: 100 
+type: standard
+flags:
+  - texsaw{M@C_w1nd0w2_L!nux}
+state: visible

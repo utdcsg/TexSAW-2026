@@ -1,0 +1,4 @@
+(let ((a "ANGULAR"))
+  (string-set! a 0 #\B)
+  a
+)
